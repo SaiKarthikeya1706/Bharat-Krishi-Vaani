@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bharat Krishi Vaani — AI Crop Advisory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <div class="brand">
+      <svg class="flag-icon" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flag of India">
+        <rect x="0" y="0" width="900" height="200" fill="#FF9933"/>
+        <rect x="0" y="200" width="900" height="200" fill="#FFFFFF"/>
+        <rect x="0" y="400" width="900" height="200" fill="#138808"/>
+        <circle cx="450" cy="300" r="80" fill="none" stroke="#000080" stroke-width="6"/>
+        <line x1="458.0" y1="300.0" x2="530.0" y2="300.0" stroke="#000080" stroke-width="4"/>
+<line x1="457.7" y1="302.1" x2="527.3" y2="320.7" stroke="#000080" stroke-width="4"/>
+<line x1="456.9" y1="304.0" x2="519.3" y2="340.0" stroke="#000080" stroke-width="4"/>
+<line x1="455.7" y1="305.7" x2="506.6" y2="356.6" stroke="#000080" stroke-width="4"/>
+<line x1="454.0" y1="306.9" x2="490.0" y2="369.3" stroke="#000080" stroke-width="4"/>
+<line x1="452.1" y1="307.7" x2="470.7" y2="377.3" stroke="#000080" stroke-width="4"/>
+<line x1="450.0" y1="308.0" x2="450.0" y2="380.0" stroke="#000080" stroke-width="4"/>
+<line x1="447.9" y1="307.7" x2="429.3" y2="377.3" stroke="#000080" stroke-width="4"/>
+<line x1="446.0" y1="306.9" x2="410.0" y2="369.3" stroke="#000080" stroke-width="4"/>
+<line x1="444.3" y1="305.7" x2="393.4" y2="356.6" stroke="#000080" stroke-width="4"/>
+<line x1="443.1" y1="304.0" x2="380.7" y2="340.0" stroke="#000080" stroke-width="4"/>
+<line x1="442.3" y1="302.1" x2="372.7" y2="320.7" stroke="#000080" stroke-width="4"/>
+<line x1="442.0" y1="300.0" x2="370.0" y2="300.0" stroke="#000080" stroke-width="4"/>
+<line x1="442.3" y1="297.9" x2="372.7" y2="279.3" stroke="#000080" stroke-width="4"/>
+<line x1="443.1" y1="296.0" x2="380.7" y2="260.0" stroke="#000080" stroke-width="4"/>
+<line x1="444.3" y1="294.3" x2="393.4" y2="243.4" stroke="#000080" stroke-width="4"/>
+<line x1="446.0" y1="293.1" x2="410.0" y2="230.7" stroke="#000080" stroke-width="4"/>
+<line x1="447.9" y1="292.3" x2="429.3" y2="222.7" stroke="#000080" stroke-width="4"/>
+<line x1="450.0" y1="292.0" x2="450.0" y2="220.0" stroke="#000080" stroke-width="4"/>
+<line x1="452.1" y1="292.3" x2="470.7" y2="222.7" stroke="#000080" stroke-width="4"/>
+<line x1="454.0" y1="293.1" x2="490.0" y2="230.7" stroke="#000080" stroke-width="4"/>
+<line x1="455.7" y1="294.3" x2="506.6" y2="243.4" stroke="#000080" stroke-width="4"/>
+<line x1="456.9" y1="296.0" x2="519.3" y2="260.0" stroke="#000080" stroke-width="4"/>
+<line x1="457.7" y1="297.9" x2="527.3" y2="279.3" stroke="#000080" stroke-width="4"/>
+        <circle cx="450" cy="300" r="8" fill="#000080"/>
+      </svg>
+      <span class="brand-name">Bharat Krishi Vaani</span>
+    </div>
+    <p class="brand-tag" data-i18n="tagline">Speak your field's problem. Get an answer in your language.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1 data-i18n="heroTitle">Your crop has a question. Ask it out loud.</h1>
+    <p class="hero-sub" data-i18n="heroSub">Show us the problem — by photo or by voice — and get back simple steps to fix it, spoken in your own language.</p>
+  </section>
+
+  <section class="motif-strip" aria-hidden="true">
+    <div class="motif-tile" style="background:#C1502E">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <ellipse cx="42" cy="60" rx="26" ry="18" fill="#FBF6E9"/>
+        <circle cx="72" cy="46" r="15" fill="#FBF6E9"/>
+        <path d="M68,32 C82,28 90,42 78,52 C72,48 66,40 68,32 Z" fill="#FBF6E9"/>
+        <path d="M83,48 C90,53 90,64 83,70 C80,72 76,70 78,66 C81,61 80,54 77,49 Z" fill="#FBF6E9"/>
+        <rect x="22" y="72" width="9" height="16" rx="3" fill="#FBF6E9"/>
+        <rect x="38" y="75" width="9" height="14" rx="3" fill="#FBF6E9"/>
+        <rect x="54" y="75" width="9" height="14" rx="3" fill="#FBF6E9"/>
+        <circle cx="76" cy="43" r="2.2" fill="#8C2F39"/>
+      </svg>
+    </div>
+    <div class="motif-tile" style="background:#2E6F6B">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <path d="M62,55 Q64.5,35.3 56.1,21.5" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="56.1" cy="21.5" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q72.2,35.4 69.1,21.7" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="69.1" cy="21.7" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q79.2,38.4 81.0,26.8" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="81.0" cy="26.8" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q84.6,43.8 90.2,36.0" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="90.2" cy="36.0" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q87.6,50.8 95.3,47.9" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="95.3" cy="47.9" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q87.7,58.5 95.5,60.9" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="95.5" cy="60.9" r="3" fill="#FBF6E9"/>
+        <path d="M62,55 Q85.0,65.6 90.8,73.0" stroke="#FBF6E9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="90.8" cy="73.0" r="3" fill="#FBF6E9"/>
+        <ellipse cx="40" cy="68" rx="16" ry="12" fill="#FBF6E9"/>
+        <circle cx="22" cy="52" r="8" fill="#FBF6E9"/>
+        <path d="M20,44 L22,36" stroke="#FBF6E9" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="motif-tile" style="background:#D9A404">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <circle cx="50" cy="55" r="28" fill="#FBF6E9"/>
+        <path d="M28,35 L38,48" stroke="#FBF6E9" stroke-width="8" stroke-linecap="round"/>
+        <path d="M72,35 L62,48" stroke="#FBF6E9" stroke-width="8" stroke-linecap="round"/>
+        <path d="M30,50 L20,45 M34,58 L23,57 M35,66 L25,70" stroke="#D9A404" stroke-width="3" stroke-linecap="round"/>
+        <path d="M70,50 L80,45 M66,58 L77,57 M65,66 L75,70" stroke="#D9A404" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="40" cy="52" r="3" fill="#D9A404"/>
+        <circle cx="60" cy="52" r="3" fill="#D9A404"/>
+        <ellipse cx="50" cy="64" rx="4" ry="3" fill="#D9A404"/>
+      </svg>
+    </div>
+    <div class="motif-tile" style="background:#8C2F39">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <circle cx="72.0" cy="50.0" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="67.8" cy="62.9" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="56.8" cy="70.9" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="43.2" cy="70.9" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="32.2" cy="62.9" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="28.0" cy="50.0" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="32.2" cy="37.1" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="43.2" cy="29.1" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="56.8" cy="29.1" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="67.8" cy="37.1" r="11" fill="#FBF6E9" fill-opacity="0.92"/>
+        <circle cx="50" cy="50" r="10" fill="#FBF6E9"/>
+      </svg>
+    </div>
+    <div class="motif-tile" style="background:#5B6B2E">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <path d="M35,60 Q38,42 30,28" stroke="#FBF6E9" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M50,60 Q53,40 44,24" stroke="#FBF6E9" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M65,60 Q68,42 60,28" stroke="#FBF6E9" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M28,60 L72,60 L66,82 Q50,90 34,82 Z" fill="#FBF6E9"/>
+        <ellipse cx="50" cy="90" rx="26" ry="5" fill="#FBF6E9"/>
+      </svg>
+    </div>
+    <div class="motif-tile" style="background:#2C3E66">
+      <svg viewBox="0 0 100 100" class="motif-icon">
+        <path d="M55,20 C80,25 85,55 65,72 C50,84 30,78 26,62 C23,50 32,40 42,44 C50,47 51,56 44,58 C40,59 37,56 38,52"
+              fill="none" stroke="#FBF6E9" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="panel" id="report-panel">
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h2 data-i18n="langHeading">Choose your language</h2>
+        <div id="lang-chips" class="chip-grid" role="group" aria-label="Language"></div>
+        <p id="i18n-status" class="i18n-status" hidden></p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h2 data-i18n="stateHeading">Your state</h2>
+        <div id="state-chips" class="chip-grid" role="group" aria-label="State"></div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h2 data-i18n="showHeading">Show us the problem</h2>
+
+        <label for="photo-input" class="capture-card">
+          <span class="capture-icon">📷</span>
+          <span class="capture-text" data-i18n="photoLabel">Take or choose a photo</span>
+        </label>
+        <input type="file" id="photo-input" accept="image/*" capture="environment" hidden>
+        <div id="photo-preview" class="photo-preview" hidden><img id="photo-preview-img" alt="Selected crop photo"></div>
+
+        <div class="or-divider"><span data-i18n="orLabel">or</span></div>
+
+        <button type="button" id="voice-btn" class="capture-card capture-card--voice">
+          <span class="capture-icon">🎙️</span>
+          <span class="capture-text" data-i18n="voiceLabel">Speak your problem</span>
+        </button>
+        <p id="voice-status" class="voice-status"></p>
+        <p id="voice-transcript" class="voice-transcript"></p>
+      </div>
+    </div>
+
+    <button type="button" id="submit-btn" class="btn btn-primary btn-big" data-i18n="submitBtn">Get help</button>
+    <p id="location-note" class="location-note"></p>
+  </section>
+
+  <section class="panel" id="result-panel" hidden>
+    <h2 data-i18n="resultHeading">Advisory</h2>
+    <div id="result-card" class="result-card"></div>
+  </section>
+
+  <section class="panel">
+    <h2 data-i18n="mapHeading">Reports near you</h2>
+    <p class="panel-sub" data-i18n="mapSub">Every report plotted here helps show where a problem is spreading — useful for you, and for anyone deciding where to send help.</p>
+    <p id="storage-mode-note" class="location-note"></p>
+    <div id="map" class="map"></div>
+  </section>
+
+  <section class="panel" id="dashboard-panel">
+    <h2>For policymakers: aggregate view</h2>
+    <p class="panel-sub">Same reports, rolled up — the shape a ministry or district dashboard would take once volume grows across regions.</p>
+    <p id="dashboard-empty" class="dashboard-empty">No reports yet — submit one above to see it here.</p>
+    <div id="dashboard-content" hidden>
+      <div class="dash-stat-row">
+        <div class="dash-stat">
+          <span class="dash-num" id="dash-total">0</span>
+          <span class="dash-label">Total reports</span>
+        </div>
+        <div class="dash-stat dash-stat--low">
+          <span class="dash-num" id="dash-low">0</span>
+          <span class="dash-label">Low urgency</span>
+        </div>
+        <div class="dash-stat dash-stat--medium">
+          <span class="dash-num" id="dash-medium">0</span>
+          <span class="dash-label">Medium urgency</span>
+        </div>
+        <div class="dash-stat dash-stat--high">
+          <span class="dash-num" id="dash-high">0</span>
+          <span class="dash-label">High urgency</span>
+        </div>
+      </div>
+      <h3>Top issues reported</h3>
+      <ul id="dash-top-issues" class="dash-list"></ul>
+      <h3>By region</h3>
+      <ul id="dash-by-region" class="dash-list"></ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Agricultural Intelligence track. Google AI (Gemini) powers diagnosis, advisory writing, and interface translation.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="config.js?v=10"></script>
+<script src="app.js?v=10"></script>
+</body>
+</html>

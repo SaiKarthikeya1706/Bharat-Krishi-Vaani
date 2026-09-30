@@ -1,0 +1,1173 @@
+{
+  "_source_note": "Representative sample data for demo/grounding. Replace with a live pull from data.gov.in (Krishi/Agmarknet datasets), IMD district forecasts, or ICAR crop advisories before final judging — see README.",
+  "states": [
+    {
+      "state": "Telangana",
+      "names": {
+        "en": "Telangana",
+        "hi": "तेलंगाना",
+        "bn": "তেলেঙ্গানা",
+        "te": "తెలంగాణ",
+        "mr": "तेलंगणा",
+        "ta": "தெலங்காணா",
+        "gu": "તેલંગાણા",
+        "kn": "ತೆಲಂಗಾಣ",
+        "ml": "തെലങ്കാന",
+        "pa": "ਤੇਲੰਗਾਨਾ",
+        "or": "ତେଲାଙ୍ଗାନା",
+        "as": "তেলেঙ্গানা",
+        "ur": "تلنگانہ",
+        "pt": "Telangana"
+      },
+      "languages": [
+        "te",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Cotton",
+        "Maize",
+        "Red gram"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Cotton",
+          "issue": "Pink bollworm",
+          "signs": "Rosette flowers, bored bolls",
+          "risk_months": [
+            "Sep",
+            "Oct"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Blast (Magnaporthe oryzae)",
+          "signs": "Diamond-shaped lesions on leaves",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "state": "Punjab",
+      "names": {
+        "en": "Punjab",
+        "hi": "पंजाब",
+        "bn": "পাঞ্জাব",
+        "te": "పంజాబ్",
+        "mr": "पंजाब",
+        "ta": "பஞ்சாப்",
+        "gu": "પંજાબ",
+        "kn": "ಪಂಜಾಬ್",
+        "ml": "പഞ്ചാബ്",
+        "pa": "ਪੰਜਾਬ",
+        "or": "ପଞ୍ଜାବ",
+        "as": "পঞ্জাব",
+        "ur": "پنجاب",
+        "pt": "Punjabe"
+      },
+      "languages": [
+        "pa",
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Wheat",
+        "Rice",
+        "Sugarcane"
+      ],
+      "season": "Rabi (Nov-Apr) / Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Wheat",
+          "issue": "Yellow rust",
+          "signs": "Yellow-orange stripes on leaves",
+          "risk_months": [
+            "Jan",
+            "Feb"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Stem borer",
+          "signs": "Dead hearts, whiteheads",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "state": "Maharashtra",
+      "names": {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र",
+        "bn": "মহারাষ্ট্র",
+        "te": "మహారాష్ట్ర",
+        "mr": "महाराष्ट्र",
+        "ta": "மகாராஷ்டிரா",
+        "gu": "મહારાષ્ટ્ર",
+        "kn": "ಮಹಾರಾಷ್ಟ್ರ",
+        "ml": "മഹാരാഷ്ട്ര",
+        "pa": "ਮਹਾਰਾਸ਼ਟਰ",
+        "or": "ମହାରାଷ୍ଟ୍ର",
+        "as": "মহাৰাষ্ট্ৰ",
+        "ur": "مہاراشٹر",
+        "pt": "Maharastra"
+      },
+      "languages": [
+        "mr",
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Cotton",
+        "Soybean",
+        "Sugarcane",
+        "Onion"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Soybean",
+          "issue": "Yellow mosaic virus",
+          "signs": "Mosaic yellowing, stunted growth",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        },
+        {
+          "crop": "Onion",
+          "issue": "Purple blotch",
+          "signs": "Purple-brown lesions on leaves",
+          "risk_months": [
+            "Nov",
+            "Dec"
+          ]
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "state": "Tamil Nadu",
+      "names": {
+        "en": "Tamil Nadu",
+        "hi": "तमिलनाडु",
+        "bn": "তামিলনাড়ু",
+        "te": "తమిళనాడు",
+        "mr": "तामिळनाडू",
+        "ta": "தமிழ்நாடு",
+        "gu": "તમિલનાડુ",
+        "kn": "ತಮಿಳುನಾಡು",
+        "ml": "തമിഴ്‌നാട്",
+        "pa": "ਤਮਿਲਨਾਡੂ",
+        "or": "ତାମିଲନାଡୁ",
+        "as": "তামিলনাডু",
+        "ur": "تمل ناڈو",
+        "pt": "Tamil Nadu"
+      },
+      "languages": [
+        "ta",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Sugarcane",
+        "Banana",
+        "Groundnut"
+      ],
+      "season": "Kharif / Rabi (Samba: Aug-Jan)",
+      "common_issues": [
+        {
+          "crop": "Banana",
+          "issue": "Panama wilt",
+          "signs": "Yellowing and splitting of pseudostem",
+          "risk_months": [
+            "Mar",
+            "Apr"
+          ]
+        },
+        {
+          "crop": "Groundnut",
+          "issue": "Leaf spot (Tikka disease)",
+          "signs": "Circular dark spots with yellow halo",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "state": "West Bengal",
+      "names": {
+        "en": "West Bengal",
+        "hi": "पश्चिम बंगाल",
+        "bn": "পশ্চিমবঙ্গ",
+        "te": "పశ్చిమ బెంగాల్",
+        "mr": "पश्चिम बंगाल",
+        "ta": "மேற்கு வங்காளம்",
+        "gu": "પશ્ચિમ બંગાળ",
+        "kn": "ಪಶ್ಚಿಮ ಬಂಗಾಳ",
+        "ml": "പശ്ചിമ ബംഗാൾ",
+        "pa": "ਪੱਛਮੀ ਬੰਗਾਲ",
+        "or": "ପଶ୍ଚିମବଙ୍ଗ",
+        "as": "পশ্চিমবংগ",
+        "ur": "مغربی بنگال",
+        "pt": "Bengala Ocidental"
+      },
+      "languages": [
+        "bn",
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Jute",
+        "Potato"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Potato",
+          "issue": "Late blight",
+          "signs": "Water-soaked lesions, white fungal growth underleaf",
+          "risk_months": [
+            "Dec",
+            "Jan"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Bacterial leaf blight",
+          "signs": "Yellow to white wavy lesions along veins",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ],
+      "country": "India"
+    },
+    {
+      "state": "Karnataka",
+      "country": "India",
+      "names": {
+        "en": "Karnataka",
+        "kn": "ಕರ್ನಾಟಕ",
+        "hi": "कर्नाटक",
+        "bn": "কর্ণাটক",
+        "te": "కర్ణాటక",
+        "mr": "कर्नाटक",
+        "ta": "கர்நாடகா",
+        "gu": "કર્ણાટક",
+        "ml": "കർണാടക",
+        "pa": "ਕਰਨਾਟਕ",
+        "or": "କର୍ଣ୍ଣାଟକ",
+        "as": "কৰ্ণাটক",
+        "ur": "کرناٹک",
+        "pt": "Karnataka"
+      },
+      "languages": [
+        "kn",
+        "en"
+      ],
+      "major_crops": [
+        "Coffee",
+        "Ragi",
+        "Maize",
+        "Cotton"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Coffee",
+          "issue": "White stem borer",
+          "signs": "Bark peeling, sawdust near stem base",
+          "risk_months": [
+            "Mar",
+            "Apr"
+          ]
+        },
+        {
+          "crop": "Maize",
+          "issue": "Fall armyworm",
+          "signs": "Ragged holes in leaves, larvae in whorl",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Kerala",
+      "country": "India",
+      "names": {
+        "en": "Kerala",
+        "ml": "കേരളം",
+        "hi": "केरल",
+        "bn": "কেরালা",
+        "te": "కేరళ",
+        "mr": "केरळ",
+        "ta": "கேரளா",
+        "gu": "કેરળ",
+        "kn": "ಕೇರಳ",
+        "pa": "ਕੇਰਲਾ",
+        "or": "କେରଳ",
+        "as": "কেৰালা",
+        "ur": "کیرالہ",
+        "pt": "Kerala"
+      },
+      "languages": [
+        "ml",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Coconut",
+        "Rubber",
+        "Spices"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Oct-Jan)",
+      "common_issues": [
+        {
+          "crop": "Coconut",
+          "issue": "Rhinoceros beetle",
+          "signs": "V-shaped cuts on unopened fronds",
+          "risk_months": [
+            "Apr",
+            "May"
+          ]
+        },
+        {
+          "crop": "Rubber",
+          "issue": "Leaf fall disease (Phytophthora)",
+          "signs": "Blackening of leaf tips, premature leaf fall",
+          "risk_months": [
+            "Jun",
+            "Jul"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Andhra Pradesh",
+      "country": "India",
+      "names": {
+        "en": "Andhra Pradesh",
+        "te": "ఆంధ్ర ప్రదేశ్",
+        "hi": "आंध्र प्रदेश",
+        "bn": "অন্ধ্রপ্রদেশ",
+        "mr": "आंध्र प्रदेश",
+        "ta": "ஆந்திரப் பிரதேசம்",
+        "gu": "આંધ્ર પ્રદેશ",
+        "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ",
+        "ml": "ആന്ധ്രാപ്രദേശ്",
+        "pa": "ਆਂਧਰਾ ਪ੍ਰਦੇਸ਼",
+        "or": "ଆନ୍ଧ୍ର ପ୍ରଦେଶ",
+        "as": "অন্ধ্ৰ প্ৰদেশ",
+        "ur": "آندھرا پردیش",
+        "pt": "Andhra Pradesh"
+      },
+      "languages": [
+        "te",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Chilli",
+        "Groundnut",
+        "Sugarcane"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Chilli",
+          "issue": "Thrips and leaf curl",
+          "signs": "Upward curling leaves, silvery streaks",
+          "risk_months": [
+            "Sep",
+            "Oct"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Brown planthopper",
+          "signs": "Yellowing, hopper burn patches",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Gujarat",
+      "country": "India",
+      "names": {
+        "en": "Gujarat",
+        "gu": "ગુજરાત",
+        "hi": "गुजरात",
+        "bn": "গুজরাট",
+        "te": "గుజరాత్",
+        "mr": "गुजरात",
+        "ta": "குஜராத்",
+        "kn": "ಗುಜರಾತ್",
+        "ml": "ഗുജറാത്ത്",
+        "pa": "ਗੁਜਰਾਤ",
+        "or": "ଗୁଜରାଟ",
+        "as": "গুজৰাট",
+        "ur": "گجرات",
+        "pt": "Guzerate"
+      },
+      "languages": [
+        "gu",
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Cotton",
+        "Groundnut",
+        "Wheat"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Nov-Mar)",
+      "common_issues": [
+        {
+          "crop": "Cotton",
+          "issue": "Whitefly",
+          "signs": "Yellowing leaves, sooty mould, sticky honeydew",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        },
+        {
+          "crop": "Groundnut",
+          "issue": "Collar rot",
+          "signs": "Wilting seedlings, dark lesions at soil line",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Rajasthan",
+      "country": "India",
+      "names": {
+        "en": "Rajasthan",
+        "hi": "राजस्थान",
+        "bn": "রাজস্থান",
+        "te": "రాజస్థాన్",
+        "mr": "राजस्थान",
+        "ta": "ராஜஸ்தான்",
+        "gu": "રાજસ્થાન",
+        "kn": "ರಾಜಸ್ಥಾನ",
+        "ml": "രാജസ്ഥാൻ",
+        "pa": "ਰਾਜਸਥਾਨ",
+        "or": "ରାଜସ୍ଥାନ",
+        "as": "ৰাজস্থান",
+        "ur": "راجستھان",
+        "pt": "Rajastão"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Bajra (Pearl millet)",
+        "Mustard",
+        "Wheat"
+      ],
+      "season": "Kharif (Jun-Sep) / Rabi (Oct-Mar)",
+      "common_issues": [
+        {
+          "crop": "Mustard",
+          "issue": "Aphid infestation",
+          "signs": "Curling leaves, sticky residue, stunted pods",
+          "risk_months": [
+            "Jan",
+            "Feb"
+          ]
+        },
+        {
+          "crop": "Bajra (Pearl millet)",
+          "issue": "Downy mildew",
+          "signs": "Pale green streaks, green ear malformation",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "names": {
+        "en": "Madhya Pradesh",
+        "hi": "मध्य प्रदेश",
+        "bn": "মধ্যপ্রদেশ",
+        "te": "మధ్య ప్రదేశ్",
+        "mr": "मध्य प्रदेश",
+        "ta": "மத்திய பிரதேசம்",
+        "gu": "મધ્ય પ્રદેશ",
+        "kn": "ಮಧ್ಯ ಪ್ರದೇಶ",
+        "ml": "മധ്യപ്രദേശ്",
+        "pa": "ਮੱਧ ਪ੍ਰਦੇਸ਼",
+        "or": "ମଧ୍ୟ ପ୍ରଦେଶ",
+        "as": "মধ্য প্ৰদেশ",
+        "ur": "مدھیہ پردیش",
+        "pt": "Madhya Pradesh"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Soybean",
+        "Wheat",
+        "Gram"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Nov-Mar)",
+      "common_issues": [
+        {
+          "crop": "Soybean",
+          "issue": "Girdle beetle",
+          "signs": "Girdled stems, wilting above cut",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        },
+        {
+          "crop": "Gram",
+          "issue": "Pod borer",
+          "signs": "Round holes in pods, larvae inside",
+          "risk_months": [
+            "Jan",
+            "Feb"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "names": {
+        "en": "Uttar Pradesh",
+        "hi": "उत्तर प्रदेश",
+        "bn": "উত্তরপ্রদেশ",
+        "te": "ఉత్తర ప్రదేశ్",
+        "mr": "उत्तर प्रदेश",
+        "ta": "உத்தரப் பிரதேசம்",
+        "gu": "ઉત્તર પ્રદેશ",
+        "kn": "ಉತ್ತರ ಪ್ರದೇಶ",
+        "ml": "ഉത്തർപ്രദേശ്",
+        "pa": "ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+        "or": "ଉତ୍ତର ପ୍ରଦେଶ",
+        "as": "উত্তৰ প্ৰদেশ",
+        "ur": "اتر پردیش",
+        "pt": "Uttar Pradesh"
+      },
+      "languages": [
+        "hi",
+        "ur",
+        "en"
+      ],
+      "major_crops": [
+        "Sugarcane",
+        "Wheat",
+        "Rice",
+        "Potato"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Nov-Apr)",
+      "common_issues": [
+        {
+          "crop": "Sugarcane",
+          "issue": "Red rot",
+          "signs": "Reddening of internal stem tissue, foul smell",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        },
+        {
+          "crop": "Wheat",
+          "issue": "Karnal bunt",
+          "signs": "Black powdery mass replacing part of grain",
+          "risk_months": [
+            "Feb",
+            "Mar"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Bihar",
+      "country": "India",
+      "names": {
+        "en": "Bihar",
+        "hi": "बिहार",
+        "bn": "বিহার",
+        "te": "బీహార్",
+        "mr": "बिहार",
+        "ta": "பீகார்",
+        "gu": "બિહાર",
+        "kn": "ಬಿಹಾರ",
+        "ml": "ബിഹാർ",
+        "pa": "ਬਿਹਾਰ",
+        "or": "ବିହାର",
+        "as": "বিহাৰ",
+        "ur": "بہار",
+        "pt": "Bihar"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Maize",
+        "Litchi",
+        "Wheat"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Litchi",
+          "issue": "Fruit borer",
+          "signs": "Bore holes near fruit stalk, premature dropping",
+          "risk_months": [
+            "Apr",
+            "May"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Sheath blight",
+          "signs": "Oval lesions on leaf sheath near waterline",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Odisha",
+      "country": "India",
+      "names": {
+        "en": "Odisha",
+        "or": "ଓଡ଼ିଶା",
+        "hi": "ओडिशा",
+        "bn": "ওড়িশা",
+        "te": "ఒడిశా",
+        "mr": "ओडिशा",
+        "ta": "ஒடிசா",
+        "gu": "ઓડિશા",
+        "kn": "ಒಡಿಶಾ",
+        "ml": "ഒഡിഷ",
+        "pa": "ਉੜੀਸਾ",
+        "as": "ওড়িশা",
+        "ur": "اوڈیشہ",
+        "pt": "Odisha"
+      },
+      "languages": [
+        "or",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Jute",
+        "Sugarcane"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Rice",
+          "issue": "Gall midge",
+          "signs": "Silver shoot / onion-leaf symptom on tillers",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        },
+        {
+          "crop": "Jute",
+          "issue": "Stem rot",
+          "signs": "Water-soaked lesions at base, stem breakage",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Assam",
+      "country": "India",
+      "names": {
+        "en": "Assam",
+        "as": "অসম",
+        "hi": "असम",
+        "bn": "অসম",
+        "te": "అస్సాం",
+        "mr": "आसाम",
+        "ta": "அசாம்",
+        "gu": "આસામ",
+        "kn": "ಅಸ್ಸಾಂ",
+        "ml": "അസം",
+        "pa": "ਅਸਾਮ",
+        "or": "ଅସମ",
+        "ur": "آسام",
+        "pt": "Assam"
+      },
+      "languages": [
+        "as",
+        "en"
+      ],
+      "major_crops": [
+        "Tea",
+        "Rice",
+        "Jute"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Tea",
+          "issue": "Red spider mite",
+          "signs": "Bronze discoloration on leaf underside",
+          "risk_months": [
+            "Mar",
+            "Apr"
+          ]
+        },
+        {
+          "crop": "Rice",
+          "issue": "Blast (Magnaporthe oryzae)",
+          "signs": "Diamond-shaped lesions on leaves",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Haryana",
+      "country": "India",
+      "names": {
+        "en": "Haryana",
+        "hi": "हरियाणा",
+        "pa": "ਹਰਿਆਣਾ",
+        "bn": "হরিয়ানা",
+        "te": "హర్యానా",
+        "mr": "हरियाणा",
+        "ta": "ஹரியானா",
+        "gu": "હરિયાણા",
+        "kn": "ಹರಿಯಾಣ",
+        "ml": "ഹരിയാന",
+        "or": "ହରିୟାଣା",
+        "as": "হৰিয়ানা",
+        "ur": "ہریانہ",
+        "pt": "Haryana"
+      },
+      "languages": [
+        "hi",
+        "pa",
+        "en"
+      ],
+      "major_crops": [
+        "Wheat",
+        "Rice",
+        "Sugarcane",
+        "Cotton"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Nov-Apr)",
+      "common_issues": [
+        {
+          "crop": "Cotton",
+          "issue": "Pink bollworm",
+          "signs": "Rosette flowers, bored bolls",
+          "risk_months": [
+            "Sep",
+            "Oct"
+          ]
+        },
+        {
+          "crop": "Wheat",
+          "issue": "Yellow rust",
+          "signs": "Yellow-orange stripes on leaves",
+          "risk_months": [
+            "Jan",
+            "Feb"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Chhattisgarh",
+      "country": "India",
+      "names": {
+        "en": "Chhattisgarh",
+        "hi": "छत्तीसगढ़",
+        "bn": "ছত্তিশগড়",
+        "te": "ఛత్తీస్‌గఢ్",
+        "mr": "छत्तीसगड",
+        "ta": "சத்தீஸ்கர்",
+        "gu": "છત્તીસગઢ",
+        "kn": "ಛತ್ತೀಸ್‌ಗಢ",
+        "ml": "ഛത്തീസ്ഗഡ്",
+        "pa": "ਛੱਤੀਸਗੜ੍ਹ",
+        "or": "ଛତିଶଗଡ଼",
+        "as": "ছত্তিশগড়",
+        "ur": "چھتیس گڑھ",
+        "pt": "Chhattisgarh"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Maize",
+        "Pulses"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Rice",
+          "issue": "Leaf folder",
+          "signs": "Folded leaves with white streaks inside",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        },
+        {
+          "crop": "Maize",
+          "issue": "Fall armyworm",
+          "signs": "Ragged holes in leaves, larvae in whorl",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Jharkhand",
+      "country": "India",
+      "names": {
+        "en": "Jharkhand",
+        "hi": "झारखंड",
+        "bn": "ঝাড়খণ্ড",
+        "te": "జార్ఖండ్",
+        "mr": "झारखंड",
+        "ta": "ஜார்க்கண்ட்",
+        "gu": "ઝારખંડ",
+        "kn": "ಜಾರ್ಖಂಡ್",
+        "ml": "ജാർഖണ്ഡ്",
+        "pa": "ਝਾਰਖੰਡ",
+        "or": "ଝାଡ଼ଖଣ୍ଡ",
+        "as": "ঝাৰখণ্ড",
+        "ur": "جھارکھنڈ",
+        "pt": "Jharkhand"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Maize",
+        "Pulses",
+        "Vegetables"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Rice",
+          "issue": "Stem borer",
+          "signs": "Dead hearts, whiteheads",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        },
+        {
+          "crop": "Vegetables",
+          "issue": "Fruit and shoot borer",
+          "signs": "Bored shoots wilting, holes in fruit",
+          "risk_months": [
+            "Jun",
+            "Jul"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "country": "India",
+      "names": {
+        "en": "Himachal Pradesh",
+        "hi": "हिमाचल प्रदेश",
+        "bn": "হিমাচল প্রদেশ",
+        "te": "హిమాచల్ ప్రదేశ్",
+        "mr": "हिमाचल प्रदेश",
+        "ta": "இமாச்சலப் பிரதேசம்",
+        "gu": "હિમાચલ પ્રદેશ",
+        "kn": "ಹಿಮಾಚಲ ಪ್ರದೇಶ",
+        "ml": "ഹിമാചൽ പ്രദേശ്",
+        "pa": "ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼",
+        "or": "ହିମାଚଳ ପ୍ରଦେଶ",
+        "as": "হিমাচল প্ৰদেশ",
+        "ur": "ہماچل پردیش",
+        "pt": "Himachal Pradesh"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Apple",
+        "Wheat",
+        "Maize"
+      ],
+      "season": "Rabi (Oct-Apr) / Kharif (Jun-Sep)",
+      "common_issues": [
+        {
+          "crop": "Apple",
+          "issue": "Apple scab",
+          "signs": "Olive-green to black spots on leaves and fruit",
+          "risk_months": [
+            "Apr",
+            "May"
+          ]
+        },
+        {
+          "crop": "Apple",
+          "issue": "Woolly aphid",
+          "signs": "White cottony masses on bark and roots",
+          "risk_months": [
+            "Jun",
+            "Jul"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Uttarakhand",
+      "country": "India",
+      "names": {
+        "en": "Uttarakhand",
+        "hi": "उत्तराखंड",
+        "bn": "উত্তরাখণ্ড",
+        "te": "ఉత్తరాఖండ్",
+        "mr": "उत्तराखंड",
+        "ta": "உத்தராகண்ட்",
+        "gu": "ઉત્તરાખંડ",
+        "kn": "ಉತ್ತರಾಖಂಡ",
+        "ml": "ഉത്തരാഖണ്ഡ്",
+        "pa": "ਉੱਤਰਾਖੰਡ",
+        "or": "ଉତ୍ତରାଖଣ୍ଡ",
+        "as": "উত্তৰাখণ্ড",
+        "ur": "اتراکھنڈ",
+        "pt": "Uttarakhand"
+      },
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Wheat",
+        "Horticulture"
+      ],
+      "season": "Kharif (Jun-Oct) / Rabi (Nov-Apr)",
+      "common_issues": [
+        {
+          "crop": "Rice",
+          "issue": "Blast (Magnaporthe oryzae)",
+          "signs": "Diamond-shaped lesions on leaves",
+          "risk_months": [
+            "Jul",
+            "Aug"
+          ]
+        },
+        {
+          "crop": "Wheat",
+          "issue": "Loose smut",
+          "signs": "Black powdery mass replacing grain head",
+          "risk_months": [
+            "Feb",
+            "Mar"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Goa",
+      "country": "India",
+      "names": {
+        "en": "Goa",
+        "mr": "गोवा",
+        "hi": "गोवा",
+        "bn": "গোয়া",
+        "te": "గోవా",
+        "ta": "கோவா",
+        "gu": "ગોવા",
+        "kn": "ಗೋವಾ",
+        "ml": "ഗോവ",
+        "pa": "ਗੋਆ",
+        "or": "ଗୋଆ",
+        "as": "গোৱা",
+        "ur": "گوا",
+        "pt": "Goa"
+      },
+      "languages": [
+        "mr",
+        "en"
+      ],
+      "major_crops": [
+        "Rice",
+        "Cashew",
+        "Coconut"
+      ],
+      "season": "Kharif (Jun-Oct)",
+      "common_issues": [
+        {
+          "crop": "Cashew",
+          "issue": "Tea mosquito bug",
+          "signs": "Blackened, dried inflorescence and young shoots",
+          "risk_months": [
+            "Nov",
+            "Dec"
+          ]
+        },
+        {
+          "crop": "Coconut",
+          "issue": "Root wilt",
+          "signs": "Yellowing and drooping of leaflets",
+          "risk_months": [
+            "Jun",
+            "Jul"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Jammu and Kashmir",
+      "country": "India",
+      "names": {
+        "en": "Jammu and Kashmir",
+        "ur": "جموں و کشمیر",
+        "hi": "जम्मू और कश्मीर",
+        "bn": "জম্মু ও কাশ্মীর",
+        "te": "జమ్మూ మరియు కాశ్మీర్",
+        "mr": "जम्मू आणि काश्मीर",
+        "ta": "ஜம்மு காஷ்மீர்",
+        "gu": "જમ્મુ અને કાશ્મીર",
+        "kn": "ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ",
+        "ml": "ജമ്മു കശ്മീർ",
+        "pa": "ਜੰਮੂ ਅਤੇ ਕਸ਼ਮੀਰ",
+        "or": "ଜାମ୍ମୁ ଓ କାଶ୍ମୀର",
+        "as": "জম্মু আৰু কাশ্মীৰ",
+        "pt": "Jammu e Caxemira"
+      },
+      "languages": [
+        "ur",
+        "hi",
+        "en"
+      ],
+      "major_crops": [
+        "Apple",
+        "Saffron",
+        "Rice",
+        "Maize"
+      ],
+      "season": "Rabi (Oct-Apr) / Kharif (May-Sep)",
+      "common_issues": [
+        {
+          "crop": "Apple",
+          "issue": "Apple scab",
+          "signs": "Olive-green to black spots on leaves and fruit",
+          "risk_months": [
+            "Apr",
+            "May"
+          ]
+        },
+        {
+          "crop": "Saffron",
+          "issue": "Corm rot",
+          "signs": "Yellowing foliage, soft rotten corms",
+          "risk_months": [
+            "Aug",
+            "Sep"
+          ]
+        }
+      ]
+    },
+    {
+      "state": "Mato Grosso",
+      "country": "Brazil",
+      "names": {
+        "en": "Mato Grosso",
+        "pt": "Mato Grosso",
+        "hi": "माटो ग्रोसो",
+        "bn": "মাতো গ্রোসো",
+        "te": "మాటో గ్రోసో",
+        "mr": "माटो ग्रोसो",
+        "ta": "மாட்டோ கிரோசோ",
+        "gu": "માટો ગ્રોસો",
+        "kn": "ಮಾಟೊ ಗ್ರೊಸ್ಸೊ",
+        "ml": "മാറ്റോ ഗ്രോസോ",
+        "pa": "ਮਾਟੋ ਗ੍ਰੋਸੋ",
+        "or": "ମାଟୋ ଗ୍ରୋସୋ",
+        "as": "মাতো গ্ৰোছো",
+        "ur": "ماتو گروسو"
+      },
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "major_crops": [
+        "Soybean",
+        "Maize",
+        "Cotton"
+      ],
+      "season": "Safra (Oct-Mar) / Safrinha (Feb-Jun)",
+      "common_issues": [
+        {
+          "crop": "Soybean",
+          "issue": "Asian soybean rust",
+          "signs": "Small yellow-brown lesions on leaf underside",
+          "risk_months": [
+            "Jan",
+            "Feb"
+          ]
+        },
+        {
+          "crop": "Cotton",
+          "issue": "Cotton boll weevil",
+          "signs": "Punctured squares and bolls, fallen flower buds",
+          "risk_months": [
+            "Mar",
+            "Apr"
+          ]
+        }
+      ]
+    }
+  ]
+}

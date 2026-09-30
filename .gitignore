@@ -1,0 +1,7 @@
+# Never commit real keys — commit config.example.js instead
+config.js
+
+node_modules/
+.firebase/
+firebase-debug.log
+.DS_Store
