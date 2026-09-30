@@ -128,6 +128,17 @@ languages) already generalizes beyond India, not shipping a polished
 multi-country picker under a 6-day deadline. Worth saying exactly that if a
 judge asks — it reads as honest scoping, not an oversight.
 
+## 5b. Why repeated demo reports don't all land on one pin
+
+Every report's coordinates come from the browser's real GPS location. If you
+submit several test reports in a row from the same laptop, they'd all carry
+the exact same coordinates and stack into a single pin on the map — accurate,
+but confusing to demo. Each report is now nudged a small random distance
+(roughly 0.4-3km) from the real location before it's saved, so reports from
+one device spread out the way nearby-but-distinct farmers' reports would.
+It only ever moves a pin a few streets over, never to a different district
+or state, so it doesn't misrepresent where a report actually came from.
+
 ## 6. Aggregate dashboard (policymaker view)
 
 A new panel below the map rolls up every report into what a ministry or
