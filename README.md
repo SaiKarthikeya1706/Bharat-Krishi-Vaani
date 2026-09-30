@@ -5,6 +5,9 @@ Gemini diagnoses it and writes back a plain-language advisory in the farmer's
 own language, the browser reads it aloud, and the report drops a pin on a
 shared map — so hotspots become visible.
 
+**Live app:** https://bharat-krishi-vaani.web.app
+**Demo video:** https://youtu.be/aJ7Dy059IGQ
+
 ## What's here
 
 ```
@@ -237,13 +240,14 @@ on the actual machine you'll demo on beforehand.
   layer the state/national tracks in the brief describe — this is deliberately
   built so it could plug into that larger picture rather than being a dead end.
 
-## 12. What's still missing for the full submission package
+## 12. Submission package — complete
 
-I built the working prototype (code above). You still need to put together:
-- **Demo video (3–5 min)** — record yourself running through the flow above.
-- **Pitch deck (10–12 slides)** — see `SLIDE_OUTLINE.md` for a ready structure.
-- **2–3 line description** — draft: "Bharat Krishi Vaani lets farmers report crop
+All five hackathon requirements are done:
+- **Source code** — this repo: https://github.com/SaiKarthikeya1706/Bharat-Krishi-Vaani
+- **Demo video (3–5 min)** — https://youtu.be/aJ7Dy059IGQ
+- **Pitch deck (10–12 slides)** — included as `Bharat-Krishi-Vaani-Pitch-Deck.pptx`
+- **2–3 line description** — "Bharat Krishi Vaani lets farmers report crop
   problems by photo or voice and get an instant, spoken advisory in their own
   language — turning scattered field-level problems into a live map of
   where help is needed most."
-- **GitHub repo** — push this folder, make it public or grant access.
+- **Deployed link** — https://bharat-krishi-vaani.web.app
